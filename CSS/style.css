@@ -1,0 +1,586 @@
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Montserrat", sans-serif;
+}
+.container {
+  width: 100%;
+  height: 100vh;
+  background-image: url(/Images/background.jpg);
+  background-size: cover;
+}
+.opacity {
+  height: 100%;
+  width: 100%;
+  background-color: rgba(0, 0, 0, 0.57);
+}
+.navbar {
+  padding-top: 20px;
+}
+.nav-link {
+  display: flex;
+
+  align-items: center;
+  margin-left: 90px;
+}
+
+.logo {
+  width: 120px;
+}
+
+.links {
+  display: flex;
+  
+  align-items: center;
+  font-weight: 600;
+  font-size: 12px;
+  color: rgb(255, 255, 255);
+  margin-left: 140px;
+}
+
+.link-area {
+display: flex;
+
+
+ 
+}
+li{
+  list-style-type: none;
+}
+.link-word{
+  margin: 20px;
+}
+.icon-image {
+  width: 3%;
+  margin-left: 28px;
+}
+.button {
+  margin-left: 130px;
+}
+.apply-button {
+  font-size: 9px;
+  font-weight: 600;
+  background-color: rgb(255, 255, 255);
+  color: #000000;
+  width: 90px;
+  height: 30px;
+  border-radius: 20px;
+  border: none;
+  padding-top: 5px;
+}
+.play-image {
+  position: relative;
+  left: -29px;
+  top: 2px;
+  width: 12px;
+}
+.section-one {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin-top: 40px;
+}
+h1 {
+  color: rgb(255, 255, 255);
+  font-size: 100px;
+  font-weight: 700;
+  width: 730px;
+  line-height: 95px;
+  text-align: center;
+}
+.school {
+  color: rgb(214, 213, 213);
+  font-weight: 300;
+  font-size: 18px;
+  margin-top: -46px;
+}
+.startup-button {
+  width: 180px;
+  height: 40px;
+  font-size: 12px;
+  font-weight: 600;
+  color: rgb(255, 255, 255);
+  margin-top: 10px;
+  border-radius: 90px;
+  border: none;
+  background-color: rgb(255, 33, 79);
+}
+.circle {
+  height: 50px;
+  width: 50px;
+  background-color: #337ab7;
+  border-radius: 25px;
+  margin-top: 50px;
+}
+.arrow {
+  position: relative;
+  bottom: -12px;
+  left: 12px;
+}
+.section-two {
+  display: flex;
+  margin-bottom: 100px;
+}
+.left-part {
+  margin-top: 200px;
+  margin-left: 60px;
+}
+.welcome {
+  color: rgb(255, 33, 79);
+  font-weight: 500;
+  font-size: 12px;
+  margin-bottom: -20px;
+}
+h2 {
+  color: rgb(35, 35, 35);
+  font-weight: 700;
+  font-size: 48px;
+}
+.description {
+  font-weight: 400;
+  font-size: 14px;
+  color: rgb(111, 111, 111);
+  margin-bottom: 30px;
+}
+.sucess-button {
+  color: rgb(255, 255, 255);
+  font-weight: 600;
+  font-size: 11px;
+  background-color: #007bff;
+  border: none;
+  width: 230px;
+  height: 40px;
+  border-radius: 110px;
+}
+.centre-part {
+  margin-top: 100px;
+  margin-left: 90px;
+}
+.card-1,
+.card-2,
+.card-3,
+.card-4 {
+  width: 300px;
+  height: 380px;
+  background-color: #ff5c75;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  border-radius: 10px;
+}
+h3 {
+  font-family: 700;
+  font-size: 16px;
+  text-align: center;
+}
+.description-2 {
+  font-family: "Roboto", sans-serif;
+  text-align: center;
+  color: rgb(255, 255, 255);
+  width: 200px;
+  line-height: 24px;
+}
+.card-2 {
+  background-color: #337ab7;
+  margin-top: 40px;
+}
+
+.third-part {
+  margin-top: 170px;
+  margin-left: 80px;
+}
+.card-3 {
+  background-color: #43d39e;
+}
+.card-4 {
+  background-color: #ffbe0b;
+  margin-top: 40px;
+}
+.section-three {
+  display: flex;
+}
+.first-part {
+  background-image: url(/Images/left.jpg);
+  background-size: cover;
+  width: 700px;
+  height: 600px;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.frame,
+.play-video {
+  width: 80px;
+}
+.right-part {
+  margin-left: 120px;
+  margin-top: 100px;
+}
+.question {
+  color: rgb(91, 192, 222);
+  font-weight: 600;
+  font-size: 40px;
+}
+.description-3 {
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 24px;
+  color: rgb(111, 111, 111);
+  width: 420px;
+}
+.enrol-button {
+  font-family: "Montserrat", sans-serif;
+  background-color: rgb(255, 33, 79);
+  color: white;
+  width: 140px;
+  height: 40px;
+  border: none;
+  border-radius: 70px;
+  font-weight: 600;
+  font-size: 11px;
+  margin-top: 20px;
+}
+.section-4 {
+  margin-left: 140px;
+  margin-top: 50px;
+}
+.title-4 {
+  margin-left: 20px;
+}
+.sub-title {
+  font-weight: 600;
+  font-size: 48px;
+  color: rgb(52, 58, 64);
+}
+.classes {
+  display: flex;
+  margin-bottom: 80px;
+}
+.class-section {
+  margin-left: 20px;
+}
+.subject-image {
+  width: 297px;
+  height: 190px;
+  border-radius: 10px 10px 0 0;
+}
+.subject-section {
+  background-color: #f7f7f7;
+  width: 297px;
+  height: 70px;
+  margin-top: -16px;
+  text-align: center;
+}
+.subject {
+  color: rgb(91, 192, 222);
+  font-weight: 600;
+  font-size: 12px;
+  padding-top: 20px;
+}
+.sub-subject {
+  font-family: "Roboto", sans-serif;
+  font-family: 400;
+  font-size: 12px;
+  color: rgb(111, 111, 111);
+  margin-top: -6px;
+}
+.section-5 {
+  display: flex;
+  margin-bottom: 70px;
+}
+.first {
+  background-image: url(/Images/main2.jpg);
+  background-size: cover;
+  width: 700px;
+  height: 600px;
+}
+.left {
+  background-color: #007bff;
+  width: 700px;
+  padding-left: 50px;
+}
+.work {
+  color: rgb(255, 255, 255);
+  font-weight: 500;
+  font-size: 40px;
+  margin-left: 46px;
+}
+.work-1 {
+  display: flex;
+}
+.admission {
+  margin-left: 50px;
+}
+.work-title,
+.work-title-4 {
+  font-weight: 500;
+  font-size: 14px;
+  color: rgb(52, 58, 64);
+}
+.number {
+  font-weight: 500;
+  font-size: 18px;
+  padding-right: 10px;
+}
+.description-4 {
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 24px;
+  color: rgb(255, 255, 255);
+}
+.work-title-4 {
+  width: 200px;
+}
+
+.upper-part {
+  margin-bottom: 50px;
+}
+.stories {
+  color: rgb(255, 33, 79);
+  font-weight: 500;
+  font-size: 12px;
+  text-align: center;
+}
+.success {
+  color: rgb(91, 192, 222);
+  margin-top: -6px;
+  text-align: center;
+}
+.lower-part {
+  display: flex;
+  justify-content: center;
+}
+iframe {
+  margin: 20px;
+}
+.video {
+  text-align: center;
+}
+.about-video {
+  color: rgb(91, 192, 222);
+  font-weight: 600;
+  font-size: 12px;
+}
+.developer {
+  font-family: "Roboto", sans-serif;
+  color: rgb(111, 111, 111);
+  font-weight: 400;
+  font-size: 16px;
+}
+.section-7 {
+  margin-top: 80px;
+
+  background-image: url(/Images/main5.jpg);
+  background-size: cover;
+  height: 600px;
+}
+
+.opacity-2 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 600px;
+  width: 100%;
+  background-color: rgba(0, 0, 0, 0.58);
+}
+.background-7 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.play-video {
+  margin-left: 260px;
+}
+.description-5 {
+  color: rgb(255, 255, 255);
+  font-weight: 500;
+  font-size: 25px;
+}
+.section-8 {
+  background-color: #f7f7f7;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.cards {
+  display: flex;
+  margin-top: 90px;
+}
+.card-one {
+  width: 340px;
+  height: 300px;
+  background-color: #ffffff;
+  border-radius: 20px;
+  display: flex;
+
+  flex-direction: column;
+  text-align: center;
+  margin: 18px;
+  padding-top: 40px;
+}
+.numbers {
+  font-weight: 300;
+  font-size: 40px;
+  color: rgb(255, 33, 79);
+}
+.card-title {
+  font-weight: 600;
+  font-size: 18px;
+  color: rgb(35, 35, 35);
+}
+.description-6 {
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 24px;
+  color: rgb(111, 111, 111);
+}
+.build {
+  width: 100%;
+  height:160px ;
+  background-color: #ff214f;
+  margin-top: 80px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.build-something {
+  font-weight: 500;
+  font-size: 20px;
+  color: rgb(255, 255, 255);
+}
+.getstarted-button {
+  font-family: "Roboto", sans-serif;
+  font-family: 400;
+  font-size: 14px;
+  color: rgb(111, 111, 111);
+  background-color: #ffffff;
+  border: none;
+  width: 200px;
+  height: 40px;
+  border-radius: 100px;
+  margin-left: 30px;
+}
+.section-9{
+
+  margin-top: 80px;
+}
+.section9-title{
+  font-weight:700 ;
+  font-size:32px ;
+  color: rgb(35, 35, 35);
+  text-align: center;
+}
+.news{
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  margin-top: 70px;
+  margin-bottom: 120px;
+}
+.news-logo{
+  width: 150px;
+}
+.footer-section{
+  padding: 70px 100px;
+  margin-bottom: -12px;
+
+  background-color: #1C1C1C;
+ 
+}
+.footer{
+display: flex;
+justify-content: center;
+align-items: center;
+
+
+ 
+}
+.about-school{
+
+  width: 300px;
+  padding-left: 40px;
+  border-right: 1px solid #403f3f;
+
+}
+.school-logo{
+  width: 110px;
+}
+.description-ubunifu{
+   font-family: 'Roboto', sans-serif;
+  font-weight: 400;
+  font-size: 12px;
+  color: 
+rgb(111, 111, 111);
+line-height: 20px;
+
+}
+.media-icon{
+  width: 20px;
+  margin: 4px;
+}
+.footer-title-link{
+  font-weight: 600;
+  font-size: 12px;
+  color: rgb(255, 255, 255);
+ 
+}
+.footer-link{
+
+  font-family: 'Roboto',sans-serif;
+  font-weight: 400;
+  font-size: 14px;
+  color: 
+rgb(111, 111, 111);
+line-height: 24px;
+padding-left: 2px;
+}
+.email{
+  margin-top: 24px;
+}
+.email-account{
+  color: 
+rgb(255, 33, 79);
+}
+.footer-sub-link{
+  font-family: 'Roboto',sans-serif;
+  font-weight:400 ;
+  font-size:12px ;
+  line-height: 10px;
+  color: rgb(111, 111, 111);
+}
+.view{
+  font-family: 'Roboto',sans-serif;
+  font-weight: 400;
+  font-size: 12px;
+  color: rgb(255, 255, 255);
+text-decoration: underline;
+}
+
+#portfolio{
+  width: 200px;
+ padding: 0px 0px 140px 40px;
+}
+.copyrights{
+ 
+  height: 120px;
+  background-color: #101010;
+}
+.ubunifu-copyrights{
+  font-family: 'Roboto', sans-serif;
+  color: rgb(255, 255, 255);
+  font-weight:400 ;
+  font-size:12px ;
+  padding:40px 0px 0px 130px;
+ 
+ 
+}
